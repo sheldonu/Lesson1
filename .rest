@@ -2,3 +2,9 @@ GET http://localhost:3000 HTTP/1.1
 
 ###
 GET http://localhost:3000/another HTTP/1.1
+
+###
+GET https://lesson1-cowb.onrender.com HTTP/1.1
+
+###
+GET https://lesson1-cowb.onrender.com/another HTTP/1.1
