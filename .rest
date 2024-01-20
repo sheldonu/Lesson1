@@ -1,10 +1,10 @@
-GET http://localhost:3000 HTTP/1.1
+GET http://localhost:3000/contacts HTTP/1.1
 
 ###
-GET http://localhost:3000/another HTTP/1.1
+GET http://localhost:3000/contacts/65abc62fff9cc231270b9149 HTTP/1.1
 
 ###
-GET https://lesson1-cowb.onrender.com HTTP/1.1
+GET http://localhost:3000/contacts/65abc650ff9cc231270b914a HTTP/1.1
 
 ###
-GET https://lesson1-cowb.onrender.com/another HTTP/1.1
+GET http://localhost:3000/contacts/65abc669ff9cc231270b914b HTTP/1.1
