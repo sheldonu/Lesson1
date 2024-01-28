@@ -22,7 +22,7 @@ Content-Type: application/json
     "birthday":"03/12/92"
 }
 
-### PUT contact
+### Update contact
 PUT http://localhost:3000/contacts/65b4ab4f60d54a5e69f73ba1 HTTP/1.1
 Content-Type: application/json
 
@@ -44,10 +44,10 @@ DELETE http://localhost:3000/contacts/65b4b0a449bf2a3721935949 HTTP/1.1
 GET https://week2-zdvr.onrender.com/contacts HTTP/1.1
 
 ### Get contact by id
-GET https://week2-zdvr.onrender.com/contacts/65abc62fff9cc231270b9149 HTTP/1.1
+GET https://week2-zdvr.onrender.com/contacts/65b4ab4f60d54a5e69f73ba0 HTTP/1.1
 
 ### Create contact
-GET POST https://week2-zdvr.onrender.com/contacts HTTP/1.1
+POST https://week2-zdvr.onrender.com/contacts HTTP/1.1
 Content-Type: application/json
 
 {
@@ -57,3 +57,18 @@ Content-Type: application/json
     "favoriteColor":"Brown",
     "birthday":"03/12/92"
 }
+
+### Update contact
+PUT https://week2-zdvr.onrender.com/contacts/65b4ab4f60d54a5e69f73ba1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Julia",
+    "lastName": "Hartman",
+    "email": "deustchermaedchen@test.com",
+    "favoriteColor": "Purple",
+    "birthday": "04/13/98"
+}
+
+### Delete contact
+DELETE https://week2-zdvr.onrender.com/contacts/65b59a9698e7a1516c75219e HTTP/1.1
