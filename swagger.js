@@ -5,7 +5,7 @@ const doc = {
     title: 'My API',
     description: 'Temple API',
   },
-  host: 'localhost:3000',
+  host: 'https://week2-zdvr.onrender.com/',
   schemes: ['http'],
 };
 
