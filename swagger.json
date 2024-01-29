@@ -8,7 +8,7 @@
   "host": "week2-zdvr.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/api-docs": {
